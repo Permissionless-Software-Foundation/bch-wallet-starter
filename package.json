@@ -6,11 +6,11 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint": "standard --env mocha --fix",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "npm run lint"
   },
   "dependencies": {
     "gatsby": "^2.23.7",
@@ -24,7 +24,8 @@
     "url": "https://github.com/Permissionless-Software-Foundation/bch-wallet-starter/issues"
   },
   "devDependencies": {
-    "semantic-release": "^17.1.1"
+    "semantic-release": "^17.1.1",
+    "standard": "^14.3.4"
   },
   "release": {
     "publish": [
