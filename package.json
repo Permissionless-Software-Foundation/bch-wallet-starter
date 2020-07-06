@@ -22,5 +22,16 @@
   },
   "bugs": {
     "url": "https://github.com/Permissionless-Software-Foundation/bch-wallet-starter/issues"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.1.1"
+  },
+  "release": {
+    "publish": [
+      {
+        "path": "@semantic-release/npm",
+        "npmPublish": false
+      }
+    ]
   }
 }
