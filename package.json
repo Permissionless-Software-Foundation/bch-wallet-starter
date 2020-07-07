@@ -3,6 +3,11 @@
   "description": "A BCH web wallet starter for Gatsby.",
   "version": "1.0.0",
   "license": "MIT",
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "contributors": [
+    "Daniel Gonzalez <danielhumgon@gmail.com>",
+    "Andre Cabrera <andrecabrera@protonmail.ch>"
+  ],
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
