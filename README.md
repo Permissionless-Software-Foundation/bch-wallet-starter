@@ -86,7 +86,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 12. **`menu-components.js`**: Allows you to add new menu items and Views to the app.
 
 ## 🎓 Learning Bitcoin Cash
-If you are new to the world of Bitcoin Cash development, head on over to [FullStack.cash](https://fullstack.cash). Our [quick-start example code](https://fullstack.cash/examples) and video tutorials will get you started quick. The [Documentation page](https://fullstack.cash/documentation) has all the educational material you'll need.
+If you are new to the world of Bitcoin Cash development, head on over to [FullStack.cash](https://fullstack.cash). Our [quick-start example code](https://fullstack.cash/examples) and video tutorials will get you started quickly. The [Documentation page](https://fullstack.cash/documentation) has all the educational material you'll need.
 
 ## 🎓 Learning Gatsby
 
