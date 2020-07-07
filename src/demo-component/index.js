@@ -13,18 +13,18 @@ class DemoComponent extends React.Component {
   render () {
     return (
       <Content
-        title="Demo Component"
-        subTitle="Getting started with adminlte-2-react"
-        browserTitle="Demo Component"
+        title='Demo Component'
+        subTitle='Getting started with adminlte-2-react'
+        browserTitle='Demo Component'
       >
         <Row>
           <Col xs={12}>
             <Box
-              title="A Box"
-              type="primary"
+              title='A Box'
+              type='primary'
               closable
               collapsable
-              footer={<Button type="danger" text="Danger Button" />}
+              footer={<Button type='danger' text='Danger Button' />}
             >
               This is the View portion of the Demo Component. This view is
               controlled by the src/demo-component/index.js file.

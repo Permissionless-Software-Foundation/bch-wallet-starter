@@ -6,5 +6,8 @@
   },
   "parserOptions": {
     "ecmaVersion": 10
+  },
+  "rules": {
+    "no-unused-vars": "off"
   }
 }
