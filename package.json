@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "build": "gatsby build",
+    "build:ipfs": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "lint": "standard --env mocha --fix",
     "start": "npm run develop",
@@ -19,7 +20,7 @@
   },
   "dependencies": {
     "gatsby": "^2.23.7",
-    "gatsby-ipfs-web-wallet": "^1.1.6"
+    "gatsby-ipfs-web-wallet": "^1.1.7"
   },
   "repository": {
     "type": "git",
