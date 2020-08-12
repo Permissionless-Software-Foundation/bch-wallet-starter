@@ -1,5 +1,7 @@
 import React from 'react'
 import Wallet from 'gatsby-ipfs-web-wallet/src/components/admin-lte/wallet/index'
+import TXHistory from 'gatsby-plugin-bch-tx-history/src/components/txhistory'
+
 // import Info from 'gatsby-ipfs-web-wallet/src/components/admin-lte/wallet/info'
 
 // console.log('Wallet: ', Wallet)
@@ -8,12 +10,12 @@ import Wallet from 'gatsby-ipfs-web-wallet/src/components/admin-lte/wallet/index
 // let _this
 
 class Wallet2 extends Wallet {
-// class Wallet2 extends React.Component {
+  // class Wallet2 extends React.Component {
   constructor (props) {
     super(props)
     console.log('Loading new example view.')
 
-    // _this = this
+    // console.log('Wallet info: ', props.walletInfo)
   }
 
   render () {
@@ -27,7 +29,7 @@ class Wallet2 extends Wallet {
   addCards () {
     return (
       <>
-        <p>This is the new component!</p>
+        <TXHistory walletInfo={this.props.walletInfo} />
       </>
     )
   }

@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "gatsby": "^2.23.7",
-    "gatsby-ipfs-web-wallet": "^1.9.8"
+    "gatsby-ipfs-web-wallet": "^1.9.8",
+    "gatsby-plugin-bch-tx-history": "Permissionless-Software-Foundation/gatsby-plugin-bch-tx-history#ct-unstable"
   },
   "repository": {
     "type": "git",
