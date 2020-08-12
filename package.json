@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "gatsby": "^2.23.7",
-    "gatsby-ipfs-web-wallet": "^1.9.2"
+    "gatsby-ipfs-web-wallet": "^1.9.8"
   },
   "repository": {
     "type": "git",
