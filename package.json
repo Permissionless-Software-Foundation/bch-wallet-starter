@@ -21,7 +21,7 @@
   "dependencies": {
     "gatsby": "^2.23.7",
     "gatsby-ipfs-web-wallet": "^1.9.8",
-    "gatsby-plugin-bch-tx-history": "^1.0.6"
+    "gatsby-plugin-bch-tx-history": "^1.1.0"
   },
   "repository": {
     "type": "git",
