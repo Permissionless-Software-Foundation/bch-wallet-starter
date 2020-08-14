@@ -24,7 +24,10 @@ class Wallet2 extends Wallet {
   addCards () {
     return (
       <>
-        <TXHistory walletInfo={this.props.walletInfo} />
+        <TXHistory
+          walletInfo={this.props.walletInfo}
+          bchWallet={this.props.bchWallet}
+        />
       </>
     )
   }
