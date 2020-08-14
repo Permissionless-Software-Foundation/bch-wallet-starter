@@ -1,19 +1,19 @@
-import React from 'react'
+import React from "react"
 
-import Wallet from 'gatsby-ipfs-web-wallet/src/components/admin-lte/wallet/index'
+import Wallet from "gatsby-ipfs-web-wallet/src/components/admin-lte/wallet/index"
 
-import TXHistory from 'gatsby-plugin-bch-tx-history/src/components/txhistory'
+import TXHistory from "gatsby-plugin-bch-tx-history/src/components/txhistory"
 
 class Wallet2 extends Wallet {
   // class Wallet2 extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
-    console.log('Loading new example view.')
+    console.log("Loading new example view.")
 
     // console.log('Wallet info: ', props.walletInfo)
   }
 
-  render () {
+  render() {
     return (
       <>
         <Wallet {...this.props} importComponents={this.addCards()} />
@@ -21,10 +21,13 @@ class Wallet2 extends Wallet {
     )
   }
 
-  addCards () {
+  addCards() {
     return (
       <>
-        <TXHistory walletInfo={this.props.walletInfo} />
+        <TXHistory
+          walletInfo={this.props.walletInfo}
+          bchWallet={this.props.bchWallet}
+        />
       </>
     )
   }
