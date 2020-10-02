@@ -80,7 +80,7 @@ class DemoComponent extends React.Component {
   }
 
   componentDidMount () {
-    _this.instanceWallet() // Crea una instancia de Web Wallet
+    _this.instanceWallet() // Creates a web wallet instance
   }
 
   // Get wallet balance
@@ -95,7 +95,7 @@ class DemoComponent extends React.Component {
       const bchWallet = _this.state.bchWallet
       const bchjs = bchWallet.bchjs
 
-      // Obteniendo balance
+      // Get the Balance
       const balances = await bchjs.Electrumx.balance(addr)
 
       const totalBalance = balances.balance.confirmed + balances.balance.unconfirmed
