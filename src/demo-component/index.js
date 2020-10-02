@@ -42,7 +42,7 @@ class DemoComponent extends React.Component {
     return (
       <Content
         title='Demo Component'
-        subTitle='Getting started with adminlte-2-react'
+        subTitle='Check the BCH balance of an address'
         browserTitle='Demo Component'
       >
         <Row>
