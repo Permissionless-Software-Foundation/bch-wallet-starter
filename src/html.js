@@ -16,7 +16,7 @@ export default function HTML (props) {
         />
 
         {/* minimal-slp-wallet-web */}
-        <script src='https://unpkg.com/minimal-slp-wallet-web' />
+        <script src='https://unpkg.com/minimal-slp-wallet' />
 
         {/* bch-message-lib */}
         <script src='https://unpkg.com/bch-message-lib' />
