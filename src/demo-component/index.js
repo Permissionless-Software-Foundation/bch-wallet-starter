@@ -8,7 +8,7 @@
 
 import React from 'react'
 import { Row, Col, Content, Box, Button } from 'adminlte-2-react'
-import { getWalletInfo } from 'gatsby-ipfs-web-wallet/src/components/localWallet'
+import { getWalletInfo } from 'gatsby-theme-bch-wallet/src/components/localWallet'
 
 const BchWallet =
   typeof window !== 'undefined'

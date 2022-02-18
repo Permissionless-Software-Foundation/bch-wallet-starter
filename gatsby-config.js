@@ -6,5 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ["gatsby-theme-bch-wallet", "gatsby-plugin-bch-tx-history"],
+  plugins: ['gatsby-theme-bch-wallet', 'gatsby-plugin-bch-tx-history']
 }
