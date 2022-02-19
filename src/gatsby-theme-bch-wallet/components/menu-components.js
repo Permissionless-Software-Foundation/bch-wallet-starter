@@ -20,10 +20,10 @@ import DemoComponent from '../../demo-component'
 import TXHistory from 'gatsby-plugin-bch-tx-history'
 
 // Default components from gatsby-ipfs-web-wallet.
-import Wallet from 'gatsby-ipfs-web-wallet/src/components/admin-lte/wallet'
-import Tokens from 'gatsby-ipfs-web-wallet/src/components/admin-lte/tokens'
-import Configure from 'gatsby-ipfs-web-wallet/src/components/admin-lte/configure'
-import SendReceive from 'gatsby-ipfs-web-wallet/src/components/admin-lte/send-receive'
+import Wallet from 'gatsby-theme-bch-wallet/src/components/admin-lte/wallet'
+import Tokens from 'gatsby-theme-bch-wallet/src/components/admin-lte/tokens'
+import Configure from 'gatsby-theme-bch-wallet/src/components/admin-lte/configure'
+import SendReceive from 'gatsby-theme-bch-wallet/src/components/admin-lte/send-receive'
 
 const { Item } = Sidebar
 
@@ -47,7 +47,7 @@ const MenuComponents = props => {
     },
     {
       key: 'Wallet',
-      component: <Wallet key='Wallet' {...props} />,
+      component: <Wallet key='Wallet' interface='consumer-api' {...props} />,
       menuItem: <Item icon='fa-wallet' key='Wallet' text='Wallet' />
     },
     {
