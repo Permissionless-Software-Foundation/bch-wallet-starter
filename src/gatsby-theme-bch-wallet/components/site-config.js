@@ -16,9 +16,17 @@ const config = {
   // Footer Information
   hostText: 'FullStack.cash',
   hostUrl: 'https://fullstack.cash/',
-  sourceCode: 'https://github.com/Permissionless-Software-Foundation/bch-wallet-starter',
+  sourceCode:
+    'https://github.com/Permissionless-Software-Foundation/bch-wallet-starter',
   torUrl: 'tozqhxcrknbv5l3wshwgj6vp3bj5ezw7qp4jdn4bjrhcpetpcq74j7ad.onion',
-  clearWebUrl: 'https://demo-wallet.fullstack.cash'
+  clearWebUrl: 'https://demo-wallet.fullstack.cash',
+
+  // Interface used by minial-slp-wallet
+  interface: 'consumer-api',
+  restURL: 'https://free-bch.fullstack.cash'
+  // restURL: 'http://localhost:5005'
+  // interface: 'rest-api',
+  // restURL: 'https://bchn.fullstack.cash/v5/'
 }
 
 module.exports = config
