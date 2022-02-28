@@ -19,9 +19,9 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "gatsby": "4.1.0",
+    "gatsby": "4.8.1",
     "gatsby-plugin-bch-tx-history": "1.1.4",
-    "gatsby-theme-bch-wallet": "1.3.2"
+    "gatsby-theme-bch-wallet": "1.3.4"
   },
   "repository": {
     "type": "git",
@@ -31,9 +31,9 @@
     "url": "https://github.com/Permissionless-Software-Foundation/bch-wallet-starter/issues"
   },
   "devDependencies": {
-    "mocha": "9.2.0",
-    "semantic-release": "17.4.3",
-    "standard": "16.0.3"
+    "mocha": "9.2.1",
+    "semantic-release": "19.0.2",
+    "standard": "16.0.4"
   },
   "release": {
     "publish": [
