@@ -16,9 +16,14 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "android:setup": "npx cap add android; npx cap update android; npx cap update android; npx cap copy android; capacitor-resources -p android -I",
+    "android:open": "npx cap open android"
   },
   "dependencies": {
+    "@capacitor/android": "^3.4.3",
+    "@capacitor/cli": "^3.4.3",
+    "@capacitor/core": "^3.4.3",
     "gatsby": "4.8.1",
     "gatsby-plugin-bch-tx-history": "1.1.4",
     "gatsby-theme-bch-wallet": "1.5.0"

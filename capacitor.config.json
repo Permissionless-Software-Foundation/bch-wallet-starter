@@ -1,0 +1,14 @@
+{
+    "appId": "com.example.app",
+    "appName": "PSF BCH wallet",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "public",
+    "plugins": {
+      "SplashScreen": {
+        "launchShowDuration": 0
+      }
+    },
+    "cordova": {},
+    "linuxAndroidStudioPath": "/home/danielhumgon/Downloads/android-studio/bin/studio.sh"
+  }
