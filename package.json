@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "mocha": "9.2.1",
-    "semantic-release": "19.0.2",
+    "semantic-release": "19.0.3",
     "standard": "16.0.4"
   },
   "release": {
